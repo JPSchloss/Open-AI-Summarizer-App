@@ -2,7 +2,7 @@ from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import Chroma
 from langchain.prompts import PromptTemplate
 from langchain.chat_models import ChatOpenAI
-from langchain.chains import RetrievalQA
+from langchain.chains import RetrievalQA 
 import os
 from pdf_reader import load_pdf
 from langchain.text_splitter import CharacterTextSplitter
