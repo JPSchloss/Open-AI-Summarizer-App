@@ -23,9 +23,9 @@ st.set_page_config(
 st.markdown("""
 # PDF Document Summarizer
 
-This is a simple web application that uses OpenAI's GPT-3.5 Turbo model to generate a summary of a PDF document. 
-To get started, please enter your OpenAI API Key and upload a PDF file.
-When ready click the "Submit" button to generate your summary. 
+###### This is a simple web application that uses OpenAI's GPT-3.5 Turbo model to generate a summary of a PDF document. 
+###### To get started, please enter your OpenAI API Key and upload a PDF file.
+###### When ready click the "Submit" button to generate your summary. 
 """)
 
 def generate_response(doc, model, openai_api_key):
