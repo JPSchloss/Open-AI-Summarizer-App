@@ -11,7 +11,7 @@ openai_api_key = os.environ.get("OPENAI_API_KEY")
 model = 'gpt-3.5-turbo-1106'
 # model = 'gpt-3.5-turbo'
 
-# Set the page color to green
+# Setting Up Some Configuration Settings
 st.set_page_config(
     page_title='PDF Summarizer',
     page_icon='✒️',
