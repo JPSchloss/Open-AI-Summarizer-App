@@ -8,7 +8,7 @@ dotenv.load_dotenv()
 openai_api_key = os.environ.get("OPENAI_API_KEY")
 
 # Declare the model to use. 
-model = 'gpt-3.5-turbo-16k'
+model = 'gpt-3.5-turbo-1106'
 # model = 'gpt-3.5-turbo'
 
 # Set the page color to green
